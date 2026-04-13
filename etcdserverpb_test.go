@@ -56,7 +56,7 @@ func TestRPCResponseJSONLayout(t *testing.T) {
 				t.Fatalf("compare json with cmp: %v", err)
 			}
 			if diff != "" {
-				t.Fatal(diff)
+				t.Fatalf("-etcd +local \n%s", diff)
 			}
 		})
 	}
