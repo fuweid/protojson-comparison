@@ -323,7 +323,7 @@ const file_auth_proto_rawDesc = "" +
 	"\tREADWRITE\x10\x02\"T\n" +
 	"\x04Role\x12\x12\n" +
 	"\x04name\x18\x01 \x01(\fR\x04name\x128\n" +
-	"\rkeyPermission\x18\x02 \x03(\v2\x12.authpb.PermissionR\rkeyPermissionB\x1fZ\x1dgo.etcd.io/etcd/api/v3/authpbb\x06proto3"
+	"\rkeyPermission\x18\x02 \x03(\v2\x12.authpb.PermissionR\rkeyPermissionB6Z4github.com/fuweid/protojson-comparison/api/v3/authpbb\x06proto3"
 
 var (
 	file_auth_proto_rawDescOnce sync.Once

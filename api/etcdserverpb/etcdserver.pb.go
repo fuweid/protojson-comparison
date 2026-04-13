@@ -81,7 +81,7 @@ const file_etcdserver_proto_rawDesc = "" +
 	"\x10etcdserver.proto\x12\fetcdserverpb\"@\n" +
 	"\bMetadata\x12\x16\n" +
 	"\x06NodeID\x18\x01 \x01(\x04R\x06NodeID\x12\x1c\n" +
-	"\tClusterID\x18\x02 \x01(\x04R\tClusterIDB%Z#go.etcd.io/etcd/api/v3/etcdserverpb"
+	"\tClusterID\x18\x02 \x01(\x04R\tClusterIDB<Z:github.com/fuweid/protojson-comparison/api/v3/etcdserverpb"
 
 var (
 	file_etcdserver_proto_rawDescOnce sync.Once

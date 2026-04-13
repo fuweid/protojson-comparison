@@ -1,8 +1,8 @@
-module go.etcd.io/etcd/api/v3
+module github.com/fuweid/protojson-comparison/api/v3
 
 go 1.26
 
-toolchain go1.26.1
+toolchain go1.26.2
 
 require (
 	github.com/coreos/go-semver v0.3.1

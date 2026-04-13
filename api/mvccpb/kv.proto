@@ -1,7 +1,7 @@
 syntax = "proto3";
 package mvccpb;
 
-option go_package = "go.etcd.io/etcd/api/v3/mvccpb";
+option go_package = "github.com/fuweid/protojson-comparison/api/v3/mvccpb";
 
 message KeyValue {
   // key is the key in bytes. An empty key is not allowed.

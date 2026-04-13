@@ -3,7 +3,7 @@ package versionpb;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "go.etcd.io/etcd/api/v3/versionpb";
+option go_package = "github.com/fuweid/protojson-comparison/api/v3/versionpb";
 
 // Indicates etcd version that introduced the message, used to determine minimal etcd version required to interpret wal that includes this message.
 extend google.protobuf.MessageOptions {

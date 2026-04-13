@@ -2,10 +2,10 @@ syntax = "proto3";
 package etcdserverpb;
 
 import "rpc.proto";
-import "etcd/api/versionpb/version.proto";
-import "etcd/api/membershippb/membership.proto";
+import "protojson-comparison/api/versionpb/version.proto";
+import "protojson-comparison/api/membershippb/membership.proto";
 
-option go_package = "go.etcd.io/etcd/api/v3/etcdserverpb";
+option go_package = "github.com/fuweid/protojson-comparison/api/v3/etcdserverpb";
 
 message RequestHeader {
   option (versionpb.etcd_version_msg) = "3.0";

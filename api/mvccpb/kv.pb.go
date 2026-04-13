@@ -250,7 +250,7 @@ const file_kv_proto_rawDesc = "" +
 	"\tEventType\x12\a\n" +
 	"\x03PUT\x10\x00\x12\n" +
 	"\n" +
-	"\x06DELETE\x10\x01B\x1fZ\x1dgo.etcd.io/etcd/api/v3/mvccpbb\x06proto3"
+	"\x06DELETE\x10\x01B6Z4github.com/fuweid/protojson-comparison/api/v3/mvccpbb\x06proto3"
 
 var (
 	file_kv_proto_rawDescOnce sync.Once

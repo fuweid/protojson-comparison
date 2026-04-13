@@ -1,7 +1,7 @@
 syntax = "proto3";
 package authpb;
 
-option go_package = "go.etcd.io/etcd/api/v3/authpb";
+option go_package = "github.com/fuweid/protojson-comparison/api/v3/authpb";
 
 message UserAddOptions {
   bool no_password = 1;

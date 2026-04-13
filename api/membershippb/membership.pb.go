@@ -11,7 +11,7 @@ import (
 	sync "sync"
 	unsafe "unsafe"
 
-	_ "go.etcd.io/etcd/api/v3/versionpb"
+	_ "github.com/fuweid/protojson-comparison/api/v3/versionpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -343,7 +343,7 @@ var File_membership_proto protoreflect.FileDescriptor
 
 const file_membership_proto_rawDesc = "" +
 	"\n" +
-	"\x10membership.proto\x12\fmembershippb\x1a etcd/api/versionpb/version.proto\"U\n" +
+	"\x10membership.proto\x12\fmembershippb\x1a0protojson-comparison/api/versionpb/version.proto\"U\n" +
 	"\x0eRaftAttributes\x12\x1b\n" +
 	"\tpeer_urls\x18\x01 \x03(\tR\bpeerUrls\x12\x1d\n" +
 	"\n" +
@@ -364,7 +364,7 @@ const file_membership_proto_rawDesc = "" +
 	"\x11member_attributes\x18\x02 \x01(\v2\x18.membershippb.AttributesR\x10memberAttributes:\a\x82\xb5\x18\x033.5\"N\n" +
 	"\x17DowngradeInfoSetRequest\x12\x18\n" +
 	"\aenabled\x18\x01 \x01(\bR\aenabled\x12\x10\n" +
-	"\x03ver\x18\x02 \x01(\tR\x03ver:\a\x82\xb5\x18\x033.5B%Z#go.etcd.io/etcd/api/v3/membershippbb\x06proto3"
+	"\x03ver\x18\x02 \x01(\tR\x03ver:\a\x82\xb5\x18\x033.5B<Z:github.com/fuweid/protojson-comparison/api/v3/membershippbb\x06proto3"
 
 var (
 	file_membership_proto_rawDescOnce sync.Once

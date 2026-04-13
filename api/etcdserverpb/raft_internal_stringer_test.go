@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/fuweid/protojson-comparison/api/v3/etcdserverpb"
 )
 
 // TestInvalidGoTypeIntPanic tests conditions that caused

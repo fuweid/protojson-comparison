@@ -11,10 +11,10 @@ import (
 	sync "sync"
 	unsafe "unsafe"
 
+	authpb "github.com/fuweid/protojson-comparison/api/v3/authpb"
+	mvccpb "github.com/fuweid/protojson-comparison/api/v3/mvccpb"
+	_ "github.com/fuweid/protojson-comparison/api/v3/versionpb"
 	_ "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
-	authpb "go.etcd.io/etcd/api/v3/authpb"
-	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
-	_ "go.etcd.io/etcd/api/v3/versionpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -6098,7 +6098,7 @@ var File_rpc_proto protoreflect.FileDescriptor
 
 const file_rpc_proto_rawDesc = "" +
 	"\n" +
-	"\trpc.proto\x12\fetcdserverpb\x1a\x18etcd/api/mvccpb/kv.proto\x1a\x1aetcd/api/authpb/auth.proto\x1a etcd/api/versionpb/version.proto\x1a\x1cgoogle/api/annotations.proto\x1a.protoc-gen-openapiv2/options/annotations.proto\"\x8e\x01\n" +
+	"\trpc.proto\x12\fetcdserverpb\x1a(protojson-comparison/api/mvccpb/kv.proto\x1a*protojson-comparison/api/authpb/auth.proto\x1a0protojson-comparison/api/versionpb/version.proto\x1a\x1cgoogle/api/annotations.proto\x1a.protoc-gen-openapiv2/options/annotations.proto\"\x8e\x01\n" +
 	"\x0eResponseHeader\x12\x1d\n" +
 	"\n" +
 	"cluster_id\x18\x01 \x01(\x04R\tclusterId\x12\x1b\n" +
@@ -6534,12 +6534,12 @@ const file_rpc_proto_rawDesc = "" +
 	"\n" +
 	"RoleDelete\x12#.etcdserverpb.AuthRoleDeleteRequest\x1a$.etcdserverpb.AuthRoleDeleteResponse\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\"\x14/v3/auth/role/delete\x12\x92\x01\n" +
 	"\x13RoleGrantPermission\x12,.etcdserverpb.AuthRoleGrantPermissionRequest\x1a-.etcdserverpb.AuthRoleGrantPermissionResponse\"\x1e\x82\xd3\xe4\x93\x02\x18:\x01*\"\x13/v3/auth/role/grant\x12\x96\x01\n" +
-	"\x14RoleRevokePermission\x12-.etcdserverpb.AuthRoleRevokePermissionRequest\x1a..etcdserverpb.AuthRoleRevokePermissionResponse\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\"\x14/v3/auth/role/revokeBW\x92A/Z\x1f\n" +
+	"\x14RoleRevokePermission\x12-.etcdserverpb.AuthRoleRevokePermissionRequest\x1a..etcdserverpb.AuthRoleRevokePermissionResponse\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\"\x14/v3/auth/role/revokeBn\x92A/Z\x1f\n" +
 	"\x1d\n" +
 	"\x06ApiKey\x12\x13\b\x02\x1a\rAuthorization \x02b\f\n" +
 	"\n" +
 	"\n" +
-	"\x06ApiKey\x12\x00Z#go.etcd.io/etcd/api/v3/etcdserverpbb\x06proto3"
+	"\x06ApiKey\x12\x00Z:github.com/fuweid/protojson-comparison/api/v3/etcdserverpbb\x06proto3"
 
 var (
 	file_rpc_proto_rawDescOnce sync.Once

@@ -11,8 +11,8 @@ import (
 	sync "sync"
 	unsafe "unsafe"
 
-	membershippb "go.etcd.io/etcd/api/v3/membershippb"
-	_ "go.etcd.io/etcd/api/v3/versionpb"
+	membershippb "github.com/fuweid/protojson-comparison/api/v3/membershippb"
+	_ "github.com/fuweid/protojson-comparison/api/v3/versionpb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -484,7 +484,7 @@ var File_raft_internal_proto protoreflect.FileDescriptor
 
 const file_raft_internal_proto_rawDesc = "" +
 	"\n" +
-	"\x13raft_internal.proto\x12\fetcdserverpb\x1a\trpc.proto\x1a etcd/api/versionpb/version.proto\x1a&etcd/api/membershippb/membership.proto\"r\n" +
+	"\x13raft_internal.proto\x12\fetcdserverpb\x1a\trpc.proto\x1a0protojson-comparison/api/versionpb/version.proto\x1a6protojson-comparison/api/membershippb/membership.proto\"r\n" +
 	"\rRequestHeader\x12\x0e\n" +
 	"\x02ID\x18\x01 \x01(\x04R\x02ID\x12\x1a\n" +
 	"\busername\x18\x02 \x01(\tR\busername\x12,\n" +
@@ -535,7 +535,7 @@ const file_raft_internal_proto_rawDesc = "" +
 	"\x1bInternalAuthenticateRequest\x12\x12\n" +
 	"\x04name\x18\x01 \x01(\tR\x04name\x12\x1a\n" +
 	"\bpassword\x18\x02 \x01(\tR\bpassword\x12!\n" +
-	"\fsimple_token\x18\x03 \x01(\tR\vsimpleToken:\a\x82\xb5\x18\x033.0B%Z#go.etcd.io/etcd/api/v3/etcdserverpbb\x06proto3"
+	"\fsimple_token\x18\x03 \x01(\tR\vsimpleToken:\a\x82\xb5\x18\x033.0B<Z:github.com/fuweid/protojson-comparison/api/v3/etcdserverpbb\x06proto3"
 
 var (
 	file_raft_internal_proto_rawDescOnce sync.Once
